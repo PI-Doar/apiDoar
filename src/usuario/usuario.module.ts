@@ -1,6 +1,6 @@
 import { forwardRef, Module } from '@nestjs/common';
 import { AuthModule } from 'src/auth/auth.module';
-import { DatabaseModule } from '../database/database.module';
+import { DatabaseModule } from '../dataBase/database.module';
 import { UsuarioController } from './usuario.controller';
 import { UsuarioProviders } from './usuario.providers';
 import { UsuarioService } from './usuario.service';
